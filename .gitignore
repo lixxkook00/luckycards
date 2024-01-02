@@ -1,0 +1,16 @@
+# System and IDE files
+Thumbs.db
+.DS_Store
+.idea
+.vscode
+.hintrc
+*.suo
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+node_modules/
+
+# Generate output
+dist/
+/npm-debug.log

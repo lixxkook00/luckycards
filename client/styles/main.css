@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+}
+
+#engagement-panel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+}
+
+#engagement-tvc {
+    display: none;
+}
+
+.btn-video {
+    display: none;
+}

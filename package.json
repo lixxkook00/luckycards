@@ -1,0 +1,66 @@
+{
+    "name": "richmedia-minigame",
+    "version": "2.0.0",
+    "main": "./src/index.js",
+    "author": "Lupin Nguyen <lupin.nguyen@totallyawesome.tv>",
+    "license": "UNLICENSED",
+    "bugs": "https://github.com/photonstorm/phaser/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/totallyawesometv/ta-demo"
+    },
+    "scripts": {
+        "start": "webpack serve --config webpack/webpack.dev.js",
+        "dev:studio": "npm start -- --env=platform=studio",
+        "dev:ga": "npm start -- --env=platform=ga",
+        "build": "webpack --config webpack/webpack.prod.js",
+        "build:studio": "npm run build -- --env=platform=studio",
+        "build:ga": "npm run build -- --env=platform=ga"
+    },
+    "dependencies": {
+        "ci": "^2.2.0",
+        "phaser": "^3.60.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.22.1",
+        "@babel/preset-env": "^7.22.2",
+        "autoprefixer": "^10.4.14",
+        "babel-loader": "^8.3.0",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^9.1.0",
+        "css-loader": "^6.8.1",
+        "css-minimizer-webpack-plugin": "^3.4.1",
+        "html-inline-css-webpack-plugin": "^1.11.1",
+        "html-webpack-inject-plugin": "^5.3.1",
+        "html-webpack-plugin": "^5.5.1",
+        "mini-css-extract-plugin": "^2.7.6",
+        "phaser3spectorjs": "^0.0.8",
+        "postcss": "^8.4.23",
+        "postcss-loader": "^6.2.1",
+        "postcss-scss": "^4.0.6",
+        "process": "^0.11.10",
+        "replace-in-file-webpack-plugin": "^1.0.6",
+        "sass": "^1.62.1",
+        "sass-loader": "^12.6.0",
+        "terser-webpack-plugin": "^5.3.9",
+        "webpack": "^5.84.1",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.15.0",
+        "webpack-merge": "^5.9.0"
+    },
+    "keywords": [
+        "2d",
+        "HTML5",
+        "WebGL",
+        "canvas",
+        "game",
+        "javascript",
+        "tweens",
+        "richmedia",
+        "ad unit",
+        "web audio"
+    ],
+    "browserslist": [
+        "defaults"
+    ]
+}
